@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money & Finance - Liquid Wealth Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Banner -->
+    <div class="top-banner">
+        Making Finance and Technology Accessible to Everyone
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">Liquid Wealth Blog</h1>
+                <div class="search-container">
+                    <input type="text" class="search-box" placeholder="Search...">
+                    <button class="search-btn">🔍</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+                <li class="nav-item"><a href="mission.html" class="nav-link">MISSION</a></li>
+                <li class="nav-item"><a href="money.html" class="nav-link active">MONEY</a></li>
+                <li class="nav-item"><a href="tech.html" class="nav-link">TECH</a></li>
+                <li class="nav-item"><a href="news.html" class="nav-link">NEWS LINKS</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Article Section -->
+        <article class="article-section">
+            <div class="category-tag">MONEY & FINANCE</div>
+            <h1 class="article-title">Personal Finance Posts</h1>
+            <div class="article-meta">All posts focused on money management, investing, and financial planning</div>
+            
+            <div class="article-content">
+                <div class="post-grid">
+                    <div class="post-card" onclick="loadMoneyPost('compound-interest')">
+                        <div class="post-category">FINANCE</div>
+                        <h3>How Compound Interest Turns Pennies into Fortunes</h3>
+                        <p>Understanding the power of compound growth and how small investments can become substantial wealth over time.</p>
+                        <div class="post-date">August 27, 2025</div>
+                    </div>
+
+                    <div class="post-card" onclick="loadMoneyPost('retirement-27')">
+                        <div class="post-category">PERSONAL FINANCE</div>
+                        <h3>Retirement Planning at 27: When Your Parents Haven't Saved</h3>
+                        <p>Breaking generational financial cycles while planning for your own secure retirement future.</p>
+                        <div class="post-date">August 25, 2025</div>
+                    </div>
+
+                    <div class="post-card" onclick="loadMoneyPost('global-economics')">
+                        <div class="post-category">ECONOMICS</div>
+                        <h3>Understanding Global Economics in Simple Terms</h3>
+                        <p>How global economic trends affect your personal finances and investment decisions.</p>
+                        <div class="post-date">August 20, 2025</div>
+                    </div>
+                </div>
+
+                <div class="money-topics">
+                    <h3>Key Money Topics I Cover</h3>
+                    <div class="topic-list">
+                        <div class="topic-item">
+                            <strong>Budgeting & Saving</strong>
+                            <p>Practical strategies for managing expenses and building emergency funds</p>
+                        </div>
+                        <div class="topic-item">
+                            <strong>Investment Basics</strong>
+                            <p>Understanding stocks, bonds, ETFs, and building your first portfolio</p>
+                        </div>
+                        <div class="topic-item">
+                            <strong>Retirement Planning</strong>
+                            <p>401(k)s, IRAs, and long-term wealth building strategies</p>
+                        </div>
+                        <div class="topic-item">
+                            <strong>Debt Management</strong>
+                            <p>Student loans, credit cards, and strategies for becoming debt-free</p>
+                        </div>
+                        <div class="topic-item">
+                            <strong>Economic Literacy</strong>
+                            <p>Understanding inflation, interest rates, and market cycles</p>
+                        </div>
+                        <div class="topic-item">
+                            <strong>First-Gen Finance</strong>
+                            <p>Building wealth without inherited financial knowledge or resources</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="money-philosophy">
+                    <h3>My Money Philosophy</h3>
+                    <p>I believe personal finance should be accessible to everyone, regardless of background or starting point. My approach focuses on practical, actionable advice that acknowledges the real challenges many of us face—like supporting family members, starting with limited resources, or navigating financial decisions without generational guidance.</p>
+                    
+                    <p>Every financial journey is different, but the fundamentals remain the same: spend less than you earn, invest consistently, and never stop learning. Whether you're just starting to budget or ready to optimize your investment strategy, there's always a next step you can take.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <!-- Author Card -->
+            <div class="author-card">
+                <div class="author-avatar">P</div>
+                <div class="author-greeting">Hello,</div>
+                <div class="author-name">I'm Patricia</div>
+                <div class="author-bio">
+                    A first-generation Filipino American who didn't grow up with financial literacy or access to wealth. Instead of letting that hold me back, it fueled my determination to learn, to grow, and to make sense of a world that often feels complicated and closed off.
+                    <br><br>
+                    Through <strong>Liquid Wealth</strong>, I share what I'm discovering about finance and technology by making complex ideas simple, approachable, and even fun. Because knowledge is meant to flow, and when shared, it becomes a gift for everyone.
+                </div>
+            </div>
+
+            <!-- Quick Stats -->
+            <div class="widget">
+                <h3 class="widget-title">Money Posts</h3>
+                <ul class="recent-posts">
+                    <li>3 Finance Articles</li>
+                    <li>Topics: Investing, Retirement, Economics</li>
+                    <li>Focus: Practical, actionable advice</li>
+                </ul>
+            </div>
+
+            <!-- Navigation Widget -->
+            <div class="widget">
+                <h3 class="widget-title">Explore</h3>
+                <ul class="recent-posts">
+                    <li><a href="index.html">← All Blog Posts</a></li>
+                    <li><a href="tech.html">Tech Articles</a></li>
+                    <li><a href="mission.html">About This Blog</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Liquid Wealth Blog. Making finance accessible to everyone.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
